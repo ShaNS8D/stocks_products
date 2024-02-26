@@ -19,6 +19,12 @@ Content-Type: application/json
 
 ###
 
+# получение продуктов с пагинацией
+GET {{baseUrl}}/products/?page=1
+Content-Type: application/json
+
+###
+
 # обновление продукта
 PATCH {{baseUrl}}/products/1/
 Content-Type: application/json
